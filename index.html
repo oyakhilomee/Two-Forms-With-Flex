@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Styles/flexboxtraining.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
     <title>Forms With Flex</title>
 </head>
 <body>
 
-
-    <div class="color blue"></div>
+    <div class="icons">
+    <i class="fas fa-check" ></i>
+    <i class="fas fa-times"></i>
+    </div>
 
     <div class="container">
         
@@ -19,20 +25,28 @@
 
                 <p>Personal Information</p>
 
-                <label for="firstname">First Name</label>
-                <input type="text" id="firstname" >
+                <label for="firstname">First Name
+                    <span class="icered">*</span>
+                </label>
+                <input type="text" id="firstname" required>
                
-                <label for="lastname">Last Name:</label>
-                <input type="text" id="lastname">
+                <label for="lastname">Last Name:
+                    <span class="icered">*</span>
+                </label>
+                <input type="text" id="lastname" required>
                 
 
                 <p>Contact Information</p>
 
-                <label for="address"> Address: </label>
-                <input type="text" id="address">
+                <label for="address"> Address: 
+                    <span class="icered">*</span>
+                </label>
+                <input type="text" id="address" required>
                 
-                <label for="city">City:</label>
-                <input type="text" id="city">
+                <label for="city">City:
+                    <span class="icered">*</span>
+                </label>
+                <input type="text" id="city" required>
 
                 <label for="zipcode">Zip Code: </label>
                 <input type="text" id="zipcode">
@@ -40,23 +54,29 @@
             </form>
     </div>
     
-    <div class="color red"></div>
-
     <div class="d-flex2">
         
             <form >
-                <label for="firstname2">First Name: </label>
-                <input type="text">
+                <label for="firstname2">First Name: 
+                    <span class="icered">*</span>
+                </label>
+                <input type="text" required>
                
-                <label for="lastname2">Last Name:</label>
-                <input type="text" id="lastname">
+                <label for="lastname2">Last Name:
+                    <span class="icered">*</span>
+                </label>
+                <input type="text" id="lastname" required>
                 
-                <label for="address2">Address:</label>
-                <input type="text" id="address2">
+                <label for="address2">Address:
+                    <span class="icered">*</span>
+                </label>
+                <input type="text" id="address2" required>
                 
 
-                <label for="city2">City:</label> 
-                <input type="text" id="city2">
+                <label for="city2">City:
+                    <span class="icered">*</span>
+                </label> 
+                <input type="text" id="city2" required>
                         
                 <label for="zipcode2">Zip Code:</label>
                 <input type="text" id="zipcode2">
