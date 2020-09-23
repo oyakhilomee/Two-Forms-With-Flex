@@ -1,0 +1,71 @@
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 85vmin;
+}
+
+.color {
+    display: flex;
+justify-content: space-around;
+
+}
+
+.blue {
+    background-color:blue;
+    height:5px ;
+    margin-top: 5rem;
+    width: 30%;
+}
+
+.red {
+    background-color:red;
+    height:5px ;
+    margin-top: 5rem;
+     width: 30%;
+}
+
+.d-flex1 {
+    background-color: white;
+    width: 30%;
+    padding: 20px 0px 0px 40px;
+    
+}
+
+
+
+.d-flex2 {
+    background-color: white;
+    width: 30%;
+    padding: 50px 0px 0px 40px;
+}
+
+body {
+    background-color: #e6e5e4;
+    font-family: lato;
+}
+
+
+/* #06aabc #ca5f25 */
+
+label {
+    display: block;
+}
+
+input {
+    width: 80%;
+    border: 1px solid  #e6e5e4;
+    padding: 10px 10px 10px 10px;
+    border-radius: 2px;
+    margin: 04px 0px 15px 0px;
+}
+
+input:focus {
+    cursor: pointer;
+    border: none;
+    background-color: #e6e5e4;
+}
+
+p {
+    text-align: center;
+}
