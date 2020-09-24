@@ -10,6 +10,7 @@
     background-color: white;
     width: 40%;
     padding: 10px 0px 0px 40px;
+    border-top: 4px solid #06aabc;
     
 }
 
@@ -17,6 +18,7 @@
     background-color: white;
     width: 40%;
     padding: 9px 0px 0px 40px;
+    border-top: 4px solid #ca5f25;
 }
 
 body {
