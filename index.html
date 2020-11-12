@@ -1,90 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Styles/flexboxtraining.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-        crossorigin="anonymous" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
     <title>Forms With Flex</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="icons">
-    <i class="fas fa-check" ></i>
-    <i class="fas fa-times"></i>
+      <i class="fas fa-check"></i>
+      <i class="fas fa-times"></i>
     </div>
 
-    <div class="container">
-        
-        <div class="d-flex1">
-            
-            <form action="">
+    <div class="container d-md-flex1">
+      <div class="d-flex1 ">
+        <form action="">
+          <p>Personal Information</p>
 
-                <p>Personal Information</p>
+          <label for="firstname "
+            >First Name
+            <span class="icered">*</span>
+          </label>
+          <input type="text" id="firstname" required />
 
-                <label for="firstname">First Name
-                    <span class="icered">*</span>
-                </label>
-                <input type="text" id="firstname" required>
-               
-                <label for="lastname">Last Name:
-                    <span class="icered">*</span>
-                </label>
-                <input type="text" id="lastname" required>
-                
+          <label for="lastname"
+            >Last Name:
+            <span class="icered">*</span>
+          </label>
+          <input type="text" id="lastname" required />
 
-                <p>Contact Information</p>
+          <p>Contact Information</p>
 
-                <label for="address"> Address: 
-                    <span class="icered">*</span>
-                </label>
-                <input type="text" id="address" required>
-                
-                <label for="city">City:
-                    <span class="icered">*</span>
-                </label>
-                <input type="text" id="city" required>
+          <label for="address">
+            Address:
+            <span class="icered">*</span>
+          </label>
+          <input type="text" id="address" required />
 
-                <label for="zipcode">Zip Code: </label>
-                <input type="text" id="zipcode">
-                
-            </form>
+          <label for="city"
+            >City:
+            <span class="icered">*</span>
+          </label>
+          <input type="text" id="city" required />
+
+          <label for="zipcode">Zip Code: </label>
+          <input type="text" id="zipcode" />
+
+          <button type="submit " class="submit-btn btn-one">Submit Now</button>
+        </form>
+      </div>
+
+      <div class="d-flex2">
+        <form>
+          <label for="firstname2"
+            >First Name:
+            <span class="icered">*</span>
+          </label>
+          <input type="text" required />
+
+          <label for="lastname2"
+            >Last Name:
+            <span class="icered">*</span>
+          </label>
+          <input type="text" id="lastname" required />
+
+          <label for="address2"
+            >Address:
+            <span class="icered">*</span>
+          </label>
+          <input type="text" id="address2" required />
+<!-- e -->
+          <label for="city2"
+            >City:
+            <span class="icered">*</span>
+          </label>
+          <input type="text" id="city2" required />
+
+          <label for="zipcode2">Zip Code:</label>
+          <input type="text" id="zipcode2" />
+          <button type="submit " class="submit-btn">Submit Now</button>
+        </form>
+      </div>
     </div>
-    
-    <div class="d-flex2">
-        
-            <form >
-                <label for="firstname2">First Name: 
-                    <span class="icered">*</span>
-                </label>
-                <input type="text" required>
-               
-                <label for="lastname2">Last Name:
-                    <span class="icered">*</span>
-                </label>
-                <input type="text" id="lastname" required>
-                
-                <label for="address2">Address:
-                    <span class="icered">*</span>
-                </label>
-                <input type="text" id="address2" required>
-                
-
-                <label for="city2">City:
-                    <span class="icered">*</span>
-                </label> 
-                <input type="text" id="city2" required>
-                        
-                <label for="zipcode2">Zip Code:</label>
-                <input type="text" id="zipcode2">
-                
-            </form>
-    </div>
-</div>
-
-
-</body>
+  </body>
 </html>

@@ -1,0 +1,96 @@
+.container {
+  //   display: flex;
+  justify-content: space-around;
+  height: 90vmin;
+}
+
+.d-md-flex1 {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.d-flex1 {
+  background-color: white;
+  width: 80%;
+  margin: 3rem 0 2rem 0;
+  margin: 0 auto;
+  padding: 10px 0 0 40px;
+  border-top: 4px solid #06aabc;
+  @media screen and (min-width: 768px) {
+    margin: 0 1.4rem 0 1.4rem;
+  }
+}
+
+.submit-btn {
+  background-color: rgb(248, 140, 17);
+  padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 1rem;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.d-flex2 {
+  background-color: white;
+  width: 80%;
+  margin: 3rem 0 2rem 0;
+  margin: 2rem auto;
+  padding: 9px 0px 0px 40px;
+  border-top: 4px solid #ca5f25;
+  @media screen and (min-width: 768px) {
+    margin: 0 1.4rem 0 1.4rem;
+  }
+}
+
+body {
+  background-color: #e6e5e4;
+  font-family: "Nunito", sans-serif;
+}
+
+/* #06aabc #ca5f25 */
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fa-check {
+  color: #06aabc;
+  font-size: 64px;
+}
+
+.fa-times {
+  color: #ca5f25;
+  font-size: 64px;
+}
+
+label {
+  display: block;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+input {
+  width: 80%;
+  border: 2px solid #e6e5e4;
+  padding: 10px 10px 10px 10px;
+  border-radius: 2px;
+  margin: 04px 0px 15px 0px;
+}
+
+input:focus {
+  cursor: pointer;
+  border: none;
+  background-color: #e6e5e4;
+}
+
+p {
+  text-align: center;
+  font-weight: 500;
+}
+
+.icered {
+  color: red;
+}
