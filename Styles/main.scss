@@ -1,9 +1,3 @@
-.container {
-  //   display: flex;
-  justify-content: space-around;
-  height: 90vmin;
-}
-
 .d-md-flex1 {
   @media screen and (min-width: 768px) {
     display: flex;
@@ -12,6 +6,7 @@
 
 .d-flex1 {
   background-color: white;
+  height: 90vmim;
   width: 80%;
   margin: 3rem 0 2rem 0;
   margin: 0 auto;
@@ -53,7 +48,14 @@ body {
 
 .icons {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
 }
 
 .fa-check {
